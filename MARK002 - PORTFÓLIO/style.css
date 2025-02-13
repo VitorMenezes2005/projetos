@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--corBranca);
+}
+
+:root{
+    --corBranca: #F2F2F2;
+    --corMarinho: #161F26;
+    --corContraste: #f25c05;
+
+    --fonteTitulo: serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background: var(--corBranca); 
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--corContraste);
+    border-radius: 5px;
+}
+
+header{ 
+    text-align: center;
+    min-height: 40px;
+    padding-top: 20px;
+    font-family: var(--fonteTitulo);
+}
+
+header a{
+    color: var(--corMarinho);
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: .7s;
+    font-weight: bolder;
+}
+
+header > a:hover{
+    background-color: var(--corContraste);
+    padding: 10px;
+    color: var(--corBranca);
+}
+
+h1, h2, p {
+    font-family: var(--fonteTitulo);
+    color: var(--corMarinho);
+} 
+
+.oneH1{
+    font-size: 5.0em;
+}
+
+h2{
+    font-size: 2.0em;
+}
+
+.Oneparag{
+    font-size: 1.3em;
+}
+
+.sectionOne{
+    min-height: 650px;
+    min-width: 300px;   
+}
+
+.hello{
+    padding-right:430px;
+    min-width: 350px;
+}
+
+.nameCenter{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.oneH1 > span:hover{
+    color: var(--corContraste);
+    transition: .3s;
+}
+
+.sectionTwo{
+    margin-top: 50px;
+    padding: 50px 50px;
+}
+
+.mainOne{
+    margin: auto;
+    background-color: var(--corMarinho);
+    min-width: 300px;
+    max-width: 2500px;
+    min-height: 990px;
+    padding-top: 90px;
+    box-shadow: 10px 10px 10px #3a414679;
+    border-radius: 15px;    
+}
+
+.sectionThree {
+    min-height: 1300px;
+    min-width: 300px;   
+}
+
+.talk {
+    text-align: center;
+    color: var(--corBranca);
+    margin: 10px;
+    font-size: 3.0em;
+}
+
+.presentation {
+    text-align: center;
+    color: var(--corBranca);
+    font-size: 3.5em;
+    padding-top: 40px;
+}
+
+.iam{
+    text-align: center;
+    color: var(--corBranca);
+    margin: 15px;
+    font-size: 2.5em;
+}
+
+.mynome{
+    text-align: justify;
+    color: var(--corBranca);
+    margin: 25px;
+    font-size: 1.5em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.mynome {
+    text-align: center;
+    color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+img {
+    transition: transform 0.5s ease;
+}
+
+img:hover {
+    transform: translateY(-10px);
+}
+
+.minha-imagem {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+    border-radius:50%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.logoa{
+    margin-top: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+.myProjects {
+    text-align: center;
+    color: var(--corMarinho);
+    font-size: 5.0em;
+}
+
+.lineMyProjects {
+    padding: 100px 0px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.elemento{
+    background-color: var(--corMarinho);
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    transition: transform 0.9s ease;
+    border-radius: 15px;  
+}
+
+.elemento:hover {
+    transform: translateY(-10px);
+}
+
+.none {
+    padding-top: 180px;
+    color: var(--corBranca);
+}
+
+.sectionFour{
+    min-height: 1300px;
+    min-width: 300px;   
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.skills{
+    height: 600px;
+    min-width: 800px;
+    text-align: center;
+    transition: transform 0.9s ease;
+    border-radius: 15px;    
+}
+
+.experience{
+    color: var(--corMarinho);
+    font-size: 4.5em;
+    padding-top: 125px;
+    text-align: justify;
+    padding-left: 200px;
+}
+
+.citacaoFinal {
+    color: var(--corMarinho);
+    text-align: justify;
+    padding-left: 200px;
+    margin: 5px;
+    font-size: 1.5em;
+}
+
+.imagensFinal{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 110px;
+}
+
+.imagensFinal2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: var(--corMarinho);
+    height: 35px;
+    text-align: center;
+}
+
+.footerText{
+    color: var(--corBranca);
+    margin: auto;
+    padding: 8px;
+    font-size: 1.0em;
+}
